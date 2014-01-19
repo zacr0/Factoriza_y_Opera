@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Descompone &amp; Opera</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo">Descompone &amp; Opera</string>
+    <string name="subtitulo">Introduce dos números y elige alguna de las opciones:</string>
+    <string name="pista_primer_numero">Primer número:</string>
+    <string name="pista_segundo_numero">Segundo número:</string>
+    <string name="salir">Salir</string>
+    <string name="boton_factores">Factores primos</string>
+    <string name="boton_tabla">Tabla de multiplicar</string>
+    <string name="texto_mcm">Máximo Común Divisor</string>
+    <string name="texto_mcd">Mínimo Común Múltiplo</string>
+    <string name="titulo_factores">Descomposición en factores:</string>
+    <string name="texto_titulo_divisor">Divisor:</string>
+    <string name="texto_titulo_resto">Resto:</string>
+    <string name="texto_titulo_tablas">Tabla de multiplicar:</string>
+    <string name="errorFaltanNumeros">Debes dar un valor a ambos números.</string>
+    <string name="errorFaltaN1">Debes introducir un valor para el primer número</string>
+    <string name="errorFaltaN2">Debes introducir un valor para el segundo número</string>
+    <string name="errorCero">Debes introducir un valor distinto de 0.</string>
+    <string name="texto_boton_volver">Volver</string>
+
+</resources>

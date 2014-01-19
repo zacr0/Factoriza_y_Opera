@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Factorize &amp; Operate</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo">Factorize &amp; Operate</string>
+    <string name="subtitulo">Enter two numbers and choose any of the options below:</string>
+    <string name="pista_primer_numero">First number:</string>
+    <string name="pista_segundo_numero">Second number:</string>
+    <string name="salir">Exit</string>
+    <string name="boton_factores">Prime Factorization</string>
+    <string name="boton_tabla">Multiplication Table</string>
+    <string name="texto_mcm">Greatest Common Divisor</string>
+    <string name="texto_mcd">Least Common Multiple</string>
+    <string name="titulo_factores">Prime Factorization:</string>
+    <string name="texto_titulo_divisor">Divisor:</string>
+    <string name="texto_titulo_resto">Rest:</string>
+    <string name="texto_titulo_tablas">Multiplication Table:</string>
+    <string name="errorFaltanNumeros">You must enter a value for both numbers.</string>
+    <string name="errorFaltaN1">You must enter a value for the first number.</string>
+    <string name="errorFaltaN2">You must enter a value for the second number.</string>
+    <string name="errorCero">Enter a value other than 0.</string>
+    <string name="texto_boton_volver">Back</string>
+
+</resources>

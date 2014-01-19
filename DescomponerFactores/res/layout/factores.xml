@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/titulo_factores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="@string/titulo_factores"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/boton_volver_factores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titulo_factores"
+            android:layout_centerHorizontal="true"
+            android:onClick="lanzarVolver"
+            android:text="@string/texto_boton_volver" />
+
+        <LinearLayout
+            android:id="@+id/columna_divisores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titulo_divisor"
+            android:layout_toRightOf="@+id/titulo_divisor"
+            android:orientation="vertical"
+            android:showDividers="beginning" >
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/titulo_resto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/titulo_factores"
+            android:layout_below="@+id/boton_volver_factores"
+            android:layout_marginLeft="21dp"
+            android:text="@string/texto_titulo_resto"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:id="@+id/columna_resto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@+id/columna_divisores"
+            android:layout_toRightOf="@+id/titulo_resto"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/titulo_divisor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/boton_volver_factores"
+            android:layout_below="@+id/boton_volver_factores"
+            android:text="@string/texto_titulo_divisor"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+</ScrollView>
